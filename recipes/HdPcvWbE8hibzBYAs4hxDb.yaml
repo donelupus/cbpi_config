@@ -1,0 +1,168 @@
+basic:
+  author: Done
+  name: "Hei\xDFwasser, Maisch und L\xE4uterprozess"
+steps:
+- id: MPFMhbaRkft2LwruG7SJ5B
+  name: Heizsonde eingetaucht?  Umschaltventil korrekt?
+  props:
+    AutoNext: 'No'
+    Notification: "Ist die Heizsonde vollst\xE4ndig eingetaucht? Ist das Umschaltventil\
+      \ in der korrekten Position?"
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep
+- id: LuEWB3VuRhNACQngK6Lmji
+  name: "Start Pumpenautomatik Hei\xDFwassertank"
+  props:
+    toggle_type: 'On'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: AH3DJE3iUC5XbSz3ZbnvBS
+  name: "Start Heizsonde Hei\xDFwassertank"
+  props:
+    toggle_type: 'On'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: WxpAtWUNfiF35ihaUCV4Fy
+  name: Maischprozess starten?
+  props:
+    AutoNext: 'No'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep
+- id: Ep3uToEQ8RwoFSFthbZbgN
+  name: "Start R\xFChrwerk"
+  props:
+    Actor: KU7QwACNKC4sMsEXeeMskt
+    toggle_type: 'On'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: SRRWiaB5ceQfLDLfDjX92i
+  name: "Rast 52\xB0"
+  props:
+    AutoMode: 'No'
+    Kettle: 3zniPm8snJhDQrPowp4x47
+    Notification: Zum Einmaischen bereit/Einmaischen beendet?
+    Sensor: 9MQge6thWXX7DUt2PP6fjF
+    Temp: '52'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashInStep
+- id: ZygEAyGmv6g94zRJCaEKaa
+  name: "Rast 72\xB0"
+  props:
+    AutoMode: 'No'
+    Kettle: 3zniPm8snJhDQrPowp4x47
+    Notification: "L\xE4uterbottich vorbereiten/Jodnormalit\xE4t erreicht?"
+    Sensor: 9MQge6thWXX7DUt2PP6fjF
+    Temp: '72'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashInStep
+- id: P3f5nogPCbJex8ye9u6BBi
+  name: "Rast 77\xB0"
+  props:
+    AutoMode: 'No'
+    Kettle: 3zniPm8snJhDQrPowp4x47
+    Notification: Bereit zum Abmaischen/Abmaischen beendet?
+    Sensor: 9MQge6thWXX7DUt2PP6fjF
+  state_text: ''
+  state_text2: null
+  status: I
+  type: MashInStep
+- id: fi9UXcGkKoRbqFCHRgSCDv
+  name: "Stop Pumpenautomatik Hei\xDFwassertank"
+  props:
+    toggle_type: 'Off'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: kz3ZUifxizgQ6NrFS4CUsw
+  name: "Stop Heizsonde Hei\xDFwassertank"
+  props:
+    toggle_type: 'Off'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: hUSTUns4vpaqgDiJisbpXB
+  name: "Verschlauchung & Umschaltventi korrekt, W\xFCrzepfanne reinigen/L\xE4uterruhe\
+    \ & Trubw\xFCrzepumpen beendet?"
+  props:
+    AutoNext: 'No'
+    Notification: "Verschlauchung vorbereiten. Umschaltventil in die korrekte Position\
+      \ bringen. W\xFCrzepfanne reinigen."
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep
+- id: FKDHV6TMFSPNhp6A6czKgS
+  name: "L\xE4utern beendet?"
+  props:
+    AutoNext: 'No'
+    Notification: " L\xE4utern durch \xD6ffnen des Handklappenventils am L\xE4uterbottich."
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep
+- id: gLPbnDLyzEpbbdMqgxqaSv
+  name: "Start Punpenautomatik Vorlaufgef\xE4\xDF"
+  props:
+    toggle_type: 'On'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: nV7jsDkhMYpDPySozsEwZB
+  name: "Start Punpenautomatik L\xE4uterbottich"
+  props:
+    toggle_type: 'On'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: 2bi5qW7j4qPfuiDS8vJbSK
+  name: "Hei\xDFwassertank ankippen/L\xE4utern beendet?"
+  props:
+    AutoNext: 'No'
+    Notification: "Hei\xDFwassertank ankippen. Messen wenn die Maisch- und W\xFCrzpfanne\
+      \ genug gef\xFCllt ist."
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep
+- id: EVu38WQhrQp9utzw66KAyg
+  name: "Stop Pumpenautomatik L\xE4uterbottich"
+  props:
+    toggle_type: 'Off'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: Dkam7RckWe7H4EUdVySq3H
+  name: "Stop Pumpenautomatik Vorlaufgef\xE4\xDF"
+  props:
+    toggle_type: 'Off'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: ToggleStep
+- id: SbdkSYnCZ8o5J6zwx4xwSq
+  name: Verschlauchung & Drehrichtung Pumpe korrekt?
+  props:
+    AutoNext: 'No'
+  state_text: ''
+  state_text2: null
+  status: I
+  type: NotificationStep

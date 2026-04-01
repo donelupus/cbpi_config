@@ -1,0 +1,53 @@
+{
+    "data": [
+        {
+            "id": "8oUswA3PxXP6sjBbAUjC5n",
+            "name": "Gasventil",
+            "power": 100,
+            "props": {},
+            "state": false,
+            "timer": 0,
+            "type": "Stepper Motor Actor"
+        },
+        {
+            "id": "k5VTy9aJgHyoLggjtLdjpD",
+            "name": "Heizstab",
+            "power": 100,
+            "props": {
+                "GPIO": 17
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        },
+        {
+            "id": "Mz2poM6kAC3rV6VThT6v7e",
+            "name": "Pumpe 1",
+            "power": 100,
+            "props": {},
+            "state": false,
+            "timer": 0,
+            "type": ""
+        },
+        {
+            "id": "6q8zAkmFTMgJpRuy7GGoop",
+            "name": "Pumpe 2",
+            "power": 100,
+            "props": {},
+            "state": false,
+            "timer": 0,
+            "type": ""
+        },
+        {
+            "id": "KU7QwACNKC4sMsEXeeMskt",
+            "name": "R\u00fchrwerk",
+            "power": 100,
+            "props": {
+                "GPIO": 1
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        }
+    ]
+}

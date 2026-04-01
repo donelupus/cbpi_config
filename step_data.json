@@ -1,0 +1,226 @@
+{
+    "basic": {
+        "author": "Done",
+        "name": "Hei\u00dfwasser, Maisch und L\u00e4uterprozess"
+    },
+    "steps": [
+        {
+            "id": "Q4TvARTJjEnaKkTDmVC2M2",
+            "name": "Heizsonde eingetaucht?  Umschaltventil korrekt?",
+            "props": {
+                "AutoNext": "No",
+                "Notification": "Ist die Heizsonde vollst\u00e4ndig eingetaucht? Ist das Umschaltventil in der korrekten Position?"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
+            "id": "2w44UhDF5sv8uTTJ8AESpc",
+            "name": "Start Pumpenautomatik Hei\u00dfwassertank",
+            "props": {
+                "toggle_type": "On"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "Y4rKkQp5BMoeyFEw8xBVxb",
+            "name": "Start Heizsonde Hei\u00dfwassertank",
+            "props": {
+                "toggle_type": "On"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "UjhsCMVFwARVghyKVBkoGK",
+            "name": "Maischprozess starten?",
+            "props": {
+                "AutoNext": "No"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
+            "id": "GGbFvTQLbJjizgT6DrGPvU",
+            "name": "Start R\u00fchrwerk",
+            "props": {
+                "Actor": "KU7QwACNKC4sMsEXeeMskt",
+                "toggle_type": "On"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "3zbbcdkSCfW9DZUVWeVVFr",
+            "name": "Einmaischen",
+            "props": {
+                "AutoMode": "No",
+                "Kettle": "3zniPm8snJhDQrPowp4x47",
+                "Notification": "Zum Einmaischen bereit/Einmaischen beendet?",
+                "Sensor": "9MQge6thWXX7DUt2PP6fjF",
+                "Temp": "52"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "MashInStep"
+        },
+        {
+            "id": "Kbtjq4xhZyinJM6uZSzccE",
+            "name": "Beta-Amylase Rast",
+            "props": {
+                "AutoMode": "Yes",
+                "Kettle": "3zniPm8snJhDQrPowp4x47",
+                "Sensor": "9MQge6thWXX7DUt2PP6fjF",
+                "Temp": "62",
+                "Timer": "30"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "MashStep"
+        },
+        {
+            "id": "iQzi6iFU7ECCgXXHF6YHBM",
+            "name": "Iodnormalit\u00e4t",
+            "props": {
+                "AutoMode": "No",
+                "Kettle": "3zniPm8snJhDQrPowp4x47",
+                "Notification": "L\u00e4uterbottich vorbereiten/Jodnormalit\u00e4t erreicht?",
+                "Sensor": "9MQge6thWXX7DUt2PP6fjF",
+                "Temp": "72"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "MashInStep"
+        },
+        {
+            "id": "XgSJiDgHuuQTh6gJeYsfnZ",
+            "name": "Abmaischen",
+            "props": {
+                "AutoMode": "No",
+                "Kettle": "3zniPm8snJhDQrPowp4x47",
+                "Notification": "Bereit zum Abmaischen/Abmaischen beendet?",
+                "Sensor": "9MQge6thWXX7DUt2PP6fjF",
+                "Temp": "77"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "MashInStep"
+        },
+        {
+            "id": "Y9zQBmhkSinZAc5CLRS3zi",
+            "name": "Stop Pumpenautomatik Hei\u00dfwassertank",
+            "props": {
+                "toggle_type": "Off"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "kenu7hVihnEKqgmX293eKQ",
+            "name": "Stop Heizsonde Hei\u00dfwassertank",
+            "props": {
+                "toggle_type": "Off"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "2VCeBsGAV9Ef3Z8xedgZX8",
+            "name": "Verschlauchung & Umschaltventi korrekt, W\u00fcrzepfanne reinigen/L\u00e4uterruhe & Trubw\u00fcrzepumpen beendet?",
+            "props": {
+                "AutoNext": "No",
+                "Notification": "Verschlauchung vorbereiten. Umschaltventil in die korrekte Position bringen. W\u00fcrzepfanne reinigen."
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
+            "id": "3bAH7AVN6TZEREfuAFQGxZ",
+            "name": "Start Punpenautomatik Vorlaufgef\u00e4\u00df",
+            "props": {
+                "toggle_type": "On"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "WNjGeoPSPLKJpH3hpSwWFp",
+            "name": "Start Punpenautomatik L\u00e4uterbottich",
+            "props": {
+                "toggle_type": "On"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "JvknKsx8B2Tf8v4GHevpWB",
+            "name": "L\u00e4utern beendet?",
+            "props": {
+                "AutoNext": "No",
+                "Notification": " L\u00e4utern durch \u00d6ffnen des Handklappenventils am L\u00e4uterbottich."
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
+            "id": "5yfHfYuESuUf3EnMce9MKZ",
+            "name": "Stop Pumpenautomatik L\u00e4uterbottich",
+            "props": {
+                "toggle_type": "Off"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "n6j9W9bKEb7z4g5uhjPEaZ",
+            "name": "Stop Pumpenautomatik Vorlaufgef\u00e4\u00df",
+            "props": {
+                "toggle_type": "Off"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ToggleStep"
+        },
+        {
+            "id": "FpqgwoobY5SRi9i4TxBAPf",
+            "name": "Verschlauchung & Drehrichtung Pumpe korrekt?",
+            "props": {
+                "AutoNext": "No"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "agitator": "",
+            "heater": "",
+            "id": "nyfpLeA6qoyxZS3ERZLwfY",
+            "name": "Hei\u00dfwasserbeh\u00e4lter",
+            "props": {},
+            "sensor": "",
+            "state": false,
+            "target_temp": 0,
+            "type": ""
+        },
+        {
+            "agitator": "",
+            "heater": "",
+            "id": "JDVXswdvAmDmdwvGFmgteM",
+            "name": "L\u00e4uterbottich",
+            "props": {},
+            "sensor": "",
+            "state": false,
+            "target_temp": 0,
+            "type": ""
+        },
+        {
+            "agitator": "KU7QwACNKC4sMsEXeeMskt",
+            "heater": "8oUswA3PxXP6sjBbAUjC5n",
+            "id": "3zniPm8snJhDQrPowp4x47",
+            "name": "Maisch- und W\u00fcrzepfanne",
+            "props": {
+                "D": "22",
+                "I": "0.1",
+                "P": "54.1804",
+                "Rest_Interval": "600",
+                "Rest_Time": "60",
+                "SampleTime": 2
+            },
+            "sensor": "9MQge6thWXX7DUt2PP6fjF",
+            "state": false,
+            "target_temp": 0,
+            "type": "BM_PID_SmartBoilWithPump"
+        }
+    ]
+}

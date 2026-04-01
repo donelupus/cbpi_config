@@ -1,0 +1,623 @@
+{
+    "elements": [
+        {
+            "id": "01673954-f3af-4b5a-8421-e89651740c61",
+            "name": "Hei\u00dfwasserbeh\u00e4lter",
+            "props": {
+                "heigth": "150",
+                "width": "100"
+            },
+            "type": "Kettle",
+            "x": 120,
+            "y": 435
+        },
+        {
+            "id": "2592bb6e-dda2-49a6-8990-91d482e78809",
+            "name": "Hei\u00dfwasserbeh\u00e4lter",
+            "props": {
+                "color": "#fff",
+                "size": 20
+            },
+            "type": "Text",
+            "x": 80,
+            "y": 535
+        },
+        {
+            "id": "802634a2-9826-4815-92f7-9f72c5d3a72e",
+            "name": "L\u00e4uterbottich",
+            "props": {
+                "heigth": "150",
+                "width": "100"
+            },
+            "type": "Kettle",
+            "x": 575,
+            "y": 330
+        },
+        {
+            "id": "50b0bde1-01e2-4ca6-b960-578385a197f9",
+            "name": "L\u00e4uterbottich",
+            "props": {
+                "color": "#fff",
+                "size": 20
+            },
+            "type": "Text",
+            "x": 560,
+            "y": 430
+        },
+        {
+            "id": "d8938385-ac11-41f7-8336-a9b4a2eed4a0",
+            "name": "Vorlaufgef\u00e4\u00df",
+            "props": {
+                "heigth": "150",
+                "width": 50
+            },
+            "type": "Kettle",
+            "x": 465,
+            "y": 425
+        },
+        {
+            "id": "1c353e94-323d-456b-9eb3-bd3f040d1b47",
+            "name": "Vorlaufgef\u00e4\u00df",
+            "props": {
+                "color": "#fff",
+                "size": 20
+            },
+            "type": "Text",
+            "x": 440,
+            "y": 475
+        },
+        {
+            "id": "f82a9edf-c138-47cf-ae5a-734298cb3803",
+            "name": "Maisch- und W\u00fcrzepfanne",
+            "props": {
+                "heigth": "150",
+                "width": "100"
+            },
+            "type": "Kettle",
+            "x": 335,
+            "y": 145
+        },
+        {
+            "id": "c340b481-22bb-4e83-bc8e-896a073ef138",
+            "name": "Maisch- und W\u00fcrzepfanne",
+            "props": {
+                "color": "#fff",
+                "size": 20
+            },
+            "type": "Text",
+            "x": 270,
+            "y": 250
+        },
+        {
+            "id": "cf19df86-a7df-4acb-9775-2c583fbc0425",
+            "name": "Led",
+            "props": {
+                "actor": "Mz2poM6kAC3rV6VThT6v7e",
+                "color": "green"
+            },
+            "type": "Led",
+            "x": 240,
+            "y": 555
+        },
+        {
+            "id": "d13fff1f-c3a7-44f2-8a09-016e691667b2",
+            "name": "Pumpe 1",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 230,
+            "y": 530
+        },
+        {
+            "id": "1d01b4b5-7eac-4161-ab19-6911473bad1c",
+            "name": "Led",
+            "props": {
+                "actor": "6q8zAkmFTMgJpRuy7GGoop",
+                "color": "green"
+            },
+            "type": "Led",
+            "x": 570,
+            "y": 515
+        },
+        {
+            "id": "d84e08d1-966e-4631-94cf-d4e32946ce24",
+            "name": "Pumpe 2",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 555,
+            "y": 485
+        },
+        {
+            "id": "85afeabd-48ca-4ccc-8864-b85edd8e69ed",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "",
+                "sensor": "nBJQ2a3oo7tdhKVXrCRETT",
+                "size": 16,
+                "unit": ""
+            },
+            "type": "Sensor",
+            "x": 95,
+            "y": 500
+        },
+        {
+            "id": "84838b6f-2743-4f19-9543-87a420f7d54c",
+            "name": "Leve 5 niedrig",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 10,
+            "y": 500
+        },
+        {
+            "id": "55a36d99-64a7-46bf-8312-7b4af84c35e6",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "NaoL7hUSGAYE5VDJT5Swof",
+                "size": "12",
+                "unit": ""
+            },
+            "type": "Sensor",
+            "x": 435,
+            "y": 455
+        },
+        {
+            "id": "3f01a516-0ac1-49e2-a4dc-19deab2b8019",
+            "name": "Level 1 niedrig",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 345,
+            "y": 450
+        },
+        {
+            "id": "ea1e7339-687d-4c22-a008-6a62c247bc5c",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "fLEdzHb8gJEkyKZPU6ssea",
+                "size": "12",
+                "unit": ""
+            },
+            "type": "Sensor",
+            "x": 435,
+            "y": 420
+        },
+        {
+            "id": "cb18a62c-b8c9-46d0-9f2a-d272a1582ec6",
+            "name": "Level 2 hoch",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 350,
+            "y": 415
+        },
+        {
+            "id": "9bf0e875-ce51-4333-992c-c3125a656885",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "Cuws4J3jALMypUna7yTVrM",
+                "size": "12",
+                "unit": ""
+            },
+            "type": "Sensor",
+            "x": 545,
+            "y": 375
+        },
+        {
+            "id": "52b2ea58-46c5-4f45-968d-824576c3d7c4",
+            "name": "Level 3 niedrig",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 450,
+            "y": 370
+        },
+        {
+            "id": "8a122701-63ff-40bf-bf03-edb312c561c1",
+            "name": "Level 4 hoch",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 460,
+            "y": 335
+        },
+        {
+            "id": "11683635-ad97-40b2-9bc4-3386f793a30e",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "gFRJLvSnYdYcVHgksMtADZ",
+                "size": "12",
+                "unit": ""
+            },
+            "type": "Sensor",
+            "x": 545,
+            "y": 335
+        },
+        {
+            "id": "a341fb6d-1758-419a-8cfd-6f9796b7990c",
+            "name": "Actor",
+            "props": {
+                "action": "yes",
+                "actor": "k5VTy9aJgHyoLggjtLdjpD",
+                "powerslider": "No",
+                "size": 16
+            },
+            "type": "ActorButton",
+            "x": 0,
+            "y": 390
+        },
+        {
+            "id": "70da5b21-e7df-483b-ba00-7989b144baed",
+            "name": "Led",
+            "props": {
+                "actor": "k5VTy9aJgHyoLggjtLdjpD",
+                "color": "red"
+            },
+            "type": "Led",
+            "x": 80,
+            "y": 440
+        },
+        {
+            "id": "ddffd6c1-b3e6-4f2b-a4db-985112514783",
+            "name": "Heizstab",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 15,
+            "y": 440
+        },
+        {
+            "id": "5957b4f7-0cd7-49b5-9a1b-13381f57fd81",
+            "name": "Led",
+            "props": {
+                "actor": "KU7QwACNKC4sMsEXeeMskt",
+                "color": "blue"
+            },
+            "type": "Led",
+            "x": 300,
+            "y": 130
+        },
+        {
+            "id": "a571f8ea-1a39-49ba-958c-868588421905",
+            "name": "R\u00fchrwerk",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 230,
+            "y": 125
+        },
+        {
+            "id": "69b64f6b-0d5e-4735-a666-351602b3e568",
+            "name": "Actor",
+            "props": {
+                "action": "yes",
+                "actor": "KU7QwACNKC4sMsEXeeMskt",
+                "powerslider": "No",
+                "size": 16
+            },
+            "type": "ActorButton",
+            "x": 215,
+            "y": 85
+        },
+        {
+            "id": "70fa2cdf-22a2-45d1-bbeb-b6c0d9454ade",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "3zniPm8snJhDQrPowp4x47",
+                "orientation": "horizontal",
+                "size": "normal"
+            },
+            "type": "KettleControl",
+            "x": 210,
+            "y": 210
+        },
+        {
+            "id": "60dd000e-2535-4f90-8736-8f92406649a6",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "9MQge6thWXX7DUt2PP6fjF",
+                "size": 16,
+                "unit": "\u00b0"
+            },
+            "type": "Sensor",
+            "x": 370,
+            "y": 175
+        },
+        {
+            "id": "15497e5a-c4b2-4be6-ba6a-497c3669759a",
+            "name": "Ist",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 345,
+            "y": 170
+        },
+        {
+            "id": "4c1cf259-e3f4-4c83-845d-514eb43eb192",
+            "name": "TargetTemp",
+            "props": {
+                "color": "#fff",
+                "kettle": "3zniPm8snJhDQrPowp4x47",
+                "size": "12",
+                "unit": "\u00b0"
+            },
+            "type": "TargetTemp",
+            "x": 380,
+            "y": 205
+        },
+        {
+            "id": "28cd9610-d06c-46e6-b25f-49af8245dd41",
+            "name": "Soll",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 340,
+            "y": 200
+        },
+        {
+            "id": "08776e5c-0565-4af5-9b0d-72025d681f00",
+            "name": "Ist",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 130,
+            "y": 465
+        },
+        {
+            "id": "6c6b1250-3d6b-4a07-8376-120a2c1b58cb",
+            "name": "Soll",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 125,
+            "y": 495
+        },
+        {
+            "id": "aae280c8-1264-4689-85e9-01c4e246af29",
+            "name": "Sensor Data",
+            "props": {
+                "action": "no",
+                "color": "#fff",
+                "colorrange": "#f00",
+                "digits": "N/A",
+                "sensor": "Tb7ghjjaPAjUHAAxWeAL7H",
+                "size": 16,
+                "unit": "\u00b0"
+            },
+            "type": "Sensor",
+            "x": 160,
+            "y": 465
+        },
+        {
+            "id": "bdb3a59f-05c7-462c-a6ad-3b7d241e9a76",
+            "name": "TargetTemp",
+            "props": {
+                "color": "#fff",
+                "kettle": "nyfpLeA6qoyxZS3ERZLwfY",
+                "size": 16,
+                "unit": "\u00b0"
+            },
+            "type": "TargetTemp",
+            "x": 160,
+            "y": 495
+        },
+        {
+            "id": "056e5d09-d2d8-4c8b-b617-908882c0c547",
+            "name": "Chart",
+            "props": {
+                "height": 100,
+                "linecolor": "#00FF00",
+                "refresh": 10,
+                "sensor": "9MQge6thWXX7DUt2PP6fjF",
+                "width": 300
+            },
+            "type": "Chart",
+            "x": 420,
+            "y": 90
+        },
+        {
+            "id": "00e143a7-ca24-4a24-9ae6-58d6b52cc4d7",
+            "name": "Temperatur Maisch- und W\u00fcrzpfanne",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 420,
+            "y": 55
+        },
+        {
+            "id": "37c0cd69-73d8-4cf0-8595-1a3bafd79d54",
+            "name": "Steps",
+            "props": {
+                "maxheight": 700,
+                "namesize": "14",
+                "stepsize": "14",
+                "width": 400
+            },
+            "type": "Steps",
+            "x": 735,
+            "y": 80
+        }
+    ],
+    "pathes": [
+        {
+            "condition": {
+                "color": "#4A4A4A",
+                "corner": "round",
+                "left": [],
+                "leftExpression": "",
+                "opacity": "yes",
+                "right": [],
+                "rightExpression": "",
+                "stroke": 10
+            },
+            "coordinates": [
+                [
+                    190,
+                    515
+                ],
+                [
+                    225,
+                    515
+                ],
+                [
+                    225,
+                    420
+                ],
+                [
+                    160,
+                    420
+                ],
+                [
+                    160,
+                    435
+                ]
+            ],
+            "id": "2fe97c8c-9755-42ce-acb7-63ad4b0f48fc"
+        },
+        {
+            "condition": {
+                "color": "#4A4A4A",
+                "corner": "round",
+                "left": [],
+                "leftExpression": "",
+                "opacity": "yes",
+                "right": [],
+                "rightExpression": "",
+                "stroke": 10
+            },
+            "coordinates": [
+                [
+                    225,
+                    515
+                ],
+                [
+                    305,
+                    515
+                ],
+                [
+                    305,
+                    305
+                ],
+                [
+                    610,
+                    305
+                ],
+                [
+                    610,
+                    335
+                ]
+            ],
+            "id": "fa7c38d5-d491-4052-9747-f9527db11726"
+        },
+        {
+            "condition": {
+                "color": "#4A4A4A",
+                "corner": "round",
+                "left": [],
+                "leftExpression": "",
+                "opacity": "yes",
+                "right": [],
+                "rightExpression": "",
+                "stroke": 10
+            },
+            "coordinates": [
+                [
+                    480,
+                    425
+                ],
+                [
+                    480,
+                    410
+                ],
+                [
+                    575,
+                    410
+                ]
+            ],
+            "id": "fb19ac6f-3d96-463b-8484-79ae390a0176"
+        },
+        {
+            "condition": {
+                "color": "#4A4A4A",
+                "corner": "round",
+                "left": [],
+                "leftExpression": "",
+                "opacity": "yes",
+                "right": [],
+                "rightExpression": "",
+                "stroke": 10
+            },
+            "coordinates": [
+                [
+                    495,
+                    465
+                ],
+                [
+                    675,
+                    465
+                ],
+                [
+                    675,
+                    230
+                ],
+                [
+                    405,
+                    230
+                ]
+            ],
+            "id": "d36b5e1d-b518-4904-8c19-326ae102193c"
+        }
+    ]
+}

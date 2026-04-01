@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": "NaoL7hUSGAYE5VDJT5Swof",
+            "name": "Level 1 Vorlaufgef\u00e4\u00df niedrig",
+            "props": {},
+            "state": false,
+            "type": ""
+        },
+        {
+            "id": "fLEdzHb8gJEkyKZPU6ssea",
+            "name": "Level 2 Vorlaufgef\u00e4\u00df hoch",
+            "props": {},
+            "state": false,
+            "type": ""
+        },
+        {
+            "id": "Cuws4J3jALMypUna7yTVrM",
+            "name": "Level 3 L\u00e4uterbottich niedrig",
+            "props": {},
+            "state": false,
+            "type": ""
+        },
+        {
+            "id": "gFRJLvSnYdYcVHgksMtADZ",
+            "name": "Level 4 L\u00e4uterbottich hoch",
+            "props": {},
+            "state": false,
+            "type": ""
+        },
+        {
+            "id": "nBJQ2a3oo7tdhKVXrCRETT",
+            "name": "Level 5 Hei\u00dfwassberh\u00e4lter niedrig",
+            "props": {},
+            "state": false,
+            "type": ""
+        },
+        {
+            "id": "Tb7ghjjaPAjUHAAxWeAL7H",
+            "name": "Temperatur 1 Hei\u00dfwasserbeh\u00e4lter",
+            "props": {
+                "Kettle": "nyfpLeA6qoyxZS3ERZLwfY"
+            },
+            "state": false,
+            "type": "OneWire"
+        },
+        {
+            "id": "9MQge6thWXX7DUt2PP6fjF",
+            "name": "Temperatur 2 Maisch- und W\u00fcrzpfanne",
+            "props": {
+                "Interval": 1,
+                "Kettle": "3zniPm8snJhDQrPowp4x47"
+            },
+            "state": false,
+            "type": "OneWire"
+        }
+    ]
+}
