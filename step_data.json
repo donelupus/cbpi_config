@@ -1,45 +1,11 @@
 {
     "basic": {
         "author": "Done",
-        "name": "Hei\u00dfwasser, Maisch und L\u00e4uterprozess"
+        "name": "Maisch und L\u00e4uterprozess"
     },
     "steps": [
         {
-            "id": "Q4TvARTJjEnaKkTDmVC2M2",
-            "name": "Heizsonde eingetaucht?  Umschaltventil korrekt?",
-            "props": {
-                "AutoNext": "No",
-                "Notification": "Ist die Heizsonde vollst\u00e4ndig eingetaucht? Ist das Umschaltventil in der korrekten Position?"
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "NotificationStep"
-        },
-        {
-            "id": "2w44UhDF5sv8uTTJ8AESpc",
-            "name": "Start Pumpenautomatik Hei\u00dfwassertank",
-            "props": {
-                "toggle_type": "On"
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "ToggleStep"
-        },
-        {
-            "id": "Y4rKkQp5BMoeyFEw8xBVxb",
-            "name": "Start Heizsonde Hei\u00dfwassertank",
-            "props": {
-                "toggle_type": "On"
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "ToggleStep"
-        },
-        {
-            "id": "UjhsCMVFwARVghyKVBkoGK",
+            "id": "nDupvyKPd6Q88t4tSpLZfx",
             "name": "Maischprozess starten?",
             "props": {
                 "AutoNext": "No"
@@ -50,7 +16,7 @@
             "type": "NotificationStep"
         },
         {
-            "id": "GGbFvTQLbJjizgT6DrGPvU",
+            "id": "cQaMmtxVKAkVjSmp9DfHJS",
             "name": "Start R\u00fchrwerk",
             "props": {
                 "Actor": "KU7QwACNKC4sMsEXeeMskt",
@@ -62,7 +28,7 @@
             "type": "ToggleStep"
         },
         {
-            "id": "3zbbcdkSCfW9DZUVWeVVFr",
+            "id": "htXHCtDStiZEcJ9Vt6pYBk",
             "name": "Einmaischen",
             "props": {
                 "AutoMode": "No",
@@ -77,7 +43,7 @@
             "type": "MashInStep"
         },
         {
-            "id": "Kbtjq4xhZyinJM6uZSzccE",
+            "id": "U9BMSwWUZAZzfmGJ7advJn",
             "name": "Beta-Amylase Rast",
             "props": {
                 "AutoMode": "Yes",
@@ -92,7 +58,7 @@
             "type": "MashStep"
         },
         {
-            "id": "iQzi6iFU7ECCgXXHF6YHBM",
+            "id": "aybaQJNK59n7kdbwv2QEUv",
             "name": "Iodnormalit\u00e4t",
             "props": {
                 "AutoMode": "No",
@@ -107,7 +73,7 @@
             "type": "MashInStep"
         },
         {
-            "id": "XgSJiDgHuuQTh6gJeYsfnZ",
+            "id": "2mtgRAWFSUQDUqg6fFjAd9",
             "name": "Abmaischen",
             "props": {
                 "AutoMode": "No",
@@ -122,29 +88,7 @@
             "type": "MashInStep"
         },
         {
-            "id": "Y9zQBmhkSinZAc5CLRS3zi",
-            "name": "Stop Pumpenautomatik Hei\u00dfwassertank",
-            "props": {
-                "toggle_type": "Off"
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "ToggleStep"
-        },
-        {
-            "id": "kenu7hVihnEKqgmX293eKQ",
-            "name": "Stop Heizsonde Hei\u00dfwassertank",
-            "props": {
-                "toggle_type": "Off"
-            },
-            "state_text": "",
-            "state_text2": null,
-            "status": "I",
-            "type": "ToggleStep"
-        },
-        {
-            "id": "2VCeBsGAV9Ef3Z8xedgZX8",
+            "id": "8oEWUj5wEs9FEponWtxtPs",
             "name": "Verschlauchung & Umschaltventi korrekt, W\u00fcrzepfanne reinigen/L\u00e4uterruhe & Trubw\u00fcrzepumpen beendet?",
             "props": {
                 "AutoNext": "No",
@@ -156,7 +100,7 @@
             "type": "NotificationStep"
         },
         {
-            "id": "3bAH7AVN6TZEREfuAFQGxZ",
+            "id": "gcd8j4Ed4kW4tZKkLUgu3Z",
             "name": "Start Punpenautomatik Vorlaufgef\u00e4\u00df",
             "props": {
                 "toggle_type": "On"
@@ -167,7 +111,7 @@
             "type": "ToggleStep"
         },
         {
-            "id": "WNjGeoPSPLKJpH3hpSwWFp",
+            "id": "H9cbVAByE6eU4NrHGRh98b",
             "name": "Start Punpenautomatik L\u00e4uterbottich",
             "props": {
                 "toggle_type": "On"
@@ -178,7 +122,7 @@
             "type": "ToggleStep"
         },
         {
-            "id": "JvknKsx8B2Tf8v4GHevpWB",
+            "id": "jeBJv9WShGTt2FmtmCKJz7",
             "name": "L\u00e4utern beendet?",
             "props": {
                 "AutoNext": "No",
@@ -190,7 +134,7 @@
             "type": "NotificationStep"
         },
         {
-            "id": "5yfHfYuESuUf3EnMce9MKZ",
+            "id": "d2EPFx6S7goZ6n7LXDwbUf",
             "name": "Stop Pumpenautomatik L\u00e4uterbottich",
             "props": {
                 "toggle_type": "Off"
@@ -201,7 +145,7 @@
             "type": "ToggleStep"
         },
         {
-            "id": "n6j9W9bKEb7z4g5uhjPEaZ",
+            "id": "A8zARtg4st97nLi574ZmyR",
             "name": "Stop Pumpenautomatik Vorlaufgef\u00e4\u00df",
             "props": {
                 "toggle_type": "Off"
@@ -212,7 +156,7 @@
             "type": "ToggleStep"
         },
         {
-            "id": "FpqgwoobY5SRi9i4TxBAPf",
+            "id": "U8jgfozAxCaPSDZE45FiEJ",
             "name": "Verschlauchung & Drehrichtung Pumpe korrekt?",
             "props": {
                 "AutoNext": "No"

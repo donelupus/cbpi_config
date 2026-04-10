@@ -1,15 +1,18 @@
 {
     "data": [
         {
-            "agitator": "",
-            "heater": "",
+            "agitator": "Mz2poM6kAC3rV6VThT6v7e",
+            "heater": "k5VTy9aJgHyoLggjtLdjpD",
             "id": "nyfpLeA6qoyxZS3ERZLwfY",
             "name": "Hei\u00dfwasserbeh\u00e4lter",
-            "props": {},
-            "sensor": "",
+            "props": {
+                "OffsetOff": "0",
+                "OffsetOn": "5"
+            },
+            "sensor": "Tb7ghjjaPAjUHAAxWeAL7H",
             "state": false,
-            "target_temp": 0,
-            "type": ""
+            "target_temp": 80,
+            "type": "Hysteresis"
         },
         {
             "agitator": "",

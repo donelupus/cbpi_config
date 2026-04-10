@@ -96,8 +96,8 @@
                 "color": "green"
             },
             "type": "Led",
-            "x": 240,
-            "y": 555
+            "x": 295,
+            "y": 560
         },
         {
             "id": "d13fff1f-c3a7-44f2-8a09-016e691667b2",
@@ -107,7 +107,7 @@
                 "size": 16
             },
             "type": "Text",
-            "x": 230,
+            "x": 285,
             "y": 530
         },
         {
@@ -150,13 +150,13 @@
         },
         {
             "id": "84838b6f-2743-4f19-9543-87a420f7d54c",
-            "name": "Leve 5 niedrig",
+            "name": "Level 5",
             "props": {
                 "color": "#fff",
                 "size": 16
             },
             "type": "Text",
-            "x": 10,
+            "x": 45,
             "y": 500
         },
         {
@@ -177,13 +177,13 @@
         },
         {
             "id": "3f01a516-0ac1-49e2-a4dc-19deab2b8019",
-            "name": "Level 1 niedrig",
+            "name": "Level 1",
             "props": {
                 "color": "#fff",
                 "size": 16
             },
             "type": "Text",
-            "x": 345,
+            "x": 385,
             "y": 450
         },
         {
@@ -204,13 +204,13 @@
         },
         {
             "id": "cb18a62c-b8c9-46d0-9f2a-d272a1582ec6",
-            "name": "Level 2 hoch",
+            "name": "Level 2",
             "props": {
                 "color": "#fff",
                 "size": 16
             },
             "type": "Text",
-            "x": 350,
+            "x": 385,
             "y": 415
         },
         {
@@ -231,25 +231,25 @@
         },
         {
             "id": "52b2ea58-46c5-4f45-968d-824576c3d7c4",
-            "name": "Level 3 niedrig",
+            "name": "Level 3",
             "props": {
                 "color": "#fff",
                 "size": 16
             },
             "type": "Text",
-            "x": 450,
+            "x": 490,
             "y": 370
         },
         {
             "id": "8a122701-63ff-40bf-bf03-edb312c561c1",
-            "name": "Level 4 hoch",
+            "name": "Level 4",
             "props": {
                 "color": "#fff",
                 "size": 16
             },
             "type": "Text",
-            "x": 460,
-            "y": 335
+            "x": 490,
+            "y": 330
         },
         {
             "id": "11683635-ad97-40b2-9bc4-3386f793a30e",
@@ -278,7 +278,7 @@
             },
             "type": "ActorButton",
             "x": 0,
-            "y": 390
+            "y": 430
         },
         {
             "id": "70da5b21-e7df-483b-ba00-7989b144baed",
@@ -289,7 +289,7 @@
             },
             "type": "Led",
             "x": 80,
-            "y": 440
+            "y": 405
         },
         {
             "id": "ddffd6c1-b3e6-4f2b-a4db-985112514783",
@@ -300,7 +300,7 @@
             },
             "type": "Text",
             "x": 15,
-            "y": 440
+            "y": 405
         },
         {
             "id": "5957b4f7-0cd7-49b5-9a1b-13381f57fd81",
@@ -335,7 +335,7 @@
             },
             "type": "ActorButton",
             "x": 215,
-            "y": 85
+            "y": 155
         },
         {
             "id": "70fa2cdf-22a2-45d1-bbeb-b6c0d9454ade",
@@ -346,8 +346,8 @@
                 "size": "normal"
             },
             "type": "KettleControl",
-            "x": 210,
-            "y": 210
+            "x": 255,
+            "y": 275
         },
         {
             "id": "60dd000e-2535-4f90-8736-8f92406649a6",
@@ -488,6 +488,99 @@
             "type": "Steps",
             "x": 735,
             "y": 80
+        },
+        {
+            "id": "ee6a77e8-7dd7-4c4d-a005-07cb140a7519",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "nyfpLeA6qoyxZS3ERZLwfY",
+                "orientation": "horizontal",
+                "size": "normal"
+            },
+            "type": "KettleControl",
+            "x": 45,
+            "y": 560
+        },
+        {
+            "id": "04564841-a2e9-4bc5-957d-b79d157e95c9",
+            "name": "1. Hei\u00dfwasser Prozess",
+            "props": {
+                "color": "#fff",
+                "size": 18
+            },
+            "type": "Text",
+            "x": 35,
+            "y": 620
+        },
+        {
+            "id": "9dfb9949-14db-4760-bd50-7914b0024b62",
+            "name": "1. Zieltemperatur einstellen",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 40,
+            "y": 685
+        },
+        {
+            "id": "975d419b-0ce7-443a-8d2c-71fe4024b84a",
+            "name": "2. Automatikmodus anschalten",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 40,
+            "y": 715
+        },
+        {
+            "id": "5e43cf67-5966-4278-b848-f7c75f697e01",
+            "name": "3. Agitator anschalten",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 40,
+            "y": 750
+        },
+        {
+            "id": "51ccd26a-9f8a-4026-ba3a-c5f339d9dfe4",
+            "name": "Heizsonde eingetaucht?  Umschaltventil korrekt?",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 40,
+            "y": 650
+        },
+        {
+            "id": "198cc4a6-a6de-403f-8d6d-fe0126923462",
+            "name": "Actor",
+            "props": {
+                "action": "yes",
+                "actor": "Mz2poM6kAC3rV6VThT6v7e",
+                "powerslider": "No",
+                "size": "12"
+            },
+            "type": "ActorButton",
+            "x": 260,
+            "y": 590
+        },
+        {
+            "id": "6cf65dbd-cabb-482b-b7c4-efee67c7adcc",
+            "name": "Actor",
+            "props": {
+                "action": "yes",
+                "actor": "6q8zAkmFTMgJpRuy7GGoop",
+                "powerslider": "No",
+                "size": "12"
+            },
+            "type": "ActorButton",
+            "x": 535,
+            "y": 545
         }
     ],
     "pathes": [
@@ -548,11 +641,11 @@
                 ],
                 [
                     305,
-                    305
+                    320
                 ],
                 [
                     610,
-                    305
+                    320
                 ],
                 [
                     610,

@@ -24,19 +24,33 @@
             "id": "Mz2poM6kAC3rV6VThT6v7e",
             "name": "Pumpe 1",
             "power": 100,
-            "props": {},
+            "props": {
+                "Actor": "k5VTy9aJgHyoLggjtLdjpD",
+                "GPIO": 10,
+                "GPIO_Control": "18",
+                "GPIO_Lower": 11,
+                "GPIO_Upper": 10,
+                "GPIOstate": "High",
+                "Inverted": "No",
+                "SamplingTime": 2,
+                "cycle_time": "1",
+                "notification": "Yes",
+                "on_time": "5"
+            },
             "state": false,
             "timer": 0,
-            "type": ""
+            "type": "Timed Cycle Actor"
         },
         {
             "id": "6q8zAkmFTMgJpRuy7GGoop",
             "name": "Pumpe 2",
             "power": 100,
-            "props": {},
+            "props": {
+                "notification": "Yes"
+            },
             "state": false,
             "timer": 0,
-            "type": ""
+            "type": "Level Sensor Pump Actor"
         },
         {
             "id": "KU7QwACNKC4sMsEXeeMskt",
