@@ -12,7 +12,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "D",
             "type": "NotificationStep"
         },
         {
@@ -24,14 +24,14 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "D",
             "type": "ToggleStep"
         },
         {
             "id": "htXHCtDStiZEcJ9Vt6pYBk",
             "name": "Einmaischen",
             "props": {
-                "AutoMode": "No",
+                "AutoMode": "Yes",
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
                 "Notification": "Zum Einmaischen bereit/Einmaischen beendet?",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
@@ -39,7 +39,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "D",
             "type": "MashInStep"
         },
         {
@@ -54,14 +54,14 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "D",
             "type": "MashStep"
         },
         {
             "id": "aybaQJNK59n7kdbwv2QEUv",
             "name": "Iodnormalit\u00e4t",
             "props": {
-                "AutoMode": "No",
+                "AutoMode": "Yes",
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
                 "Notification": "L\u00e4uterbottich vorbereiten/Jodnormalit\u00e4t erreicht?",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
@@ -69,14 +69,14 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "D",
             "type": "MashInStep"
         },
         {
             "id": "2mtgRAWFSUQDUqg6fFjAd9",
             "name": "Abmaischen",
             "props": {
-                "AutoMode": "No",
+                "AutoMode": "Yes",
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
                 "Notification": "Bereit zum Abmaischen/Abmaischen beendet?",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
@@ -84,14 +84,14 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "D",
             "type": "MashInStep"
         },
         {
             "id": "8oEWUj5wEs9FEponWtxtPs",
             "name": "Verschlauchung & Umschaltventi korrekt, W\u00fcrzepfanne reinigen/L\u00e4uterruhe & Trubw\u00fcrzepumpen beendet?",
             "props": {
-                "AutoNext": "No",
+                "AutoNext": "Yes",
                 "Notification": "Verschlauchung vorbereiten. Umschaltventil in die korrekte Position bringen. W\u00fcrzepfanne reinigen."
             },
             "state_text": "",
@@ -107,7 +107,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "I",
+            "status": "S",
             "type": "ToggleStep"
         },
         {

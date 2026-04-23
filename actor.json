@@ -4,7 +4,12 @@
             "id": "8oUswA3PxXP6sjBbAUjC5n",
             "name": "Gasventil",
             "power": 100,
-            "props": {},
+            "props": {
+                "notification": "Yes",
+                "start_gas_burner_min_power": "10",
+                "start_gas_burner_threshold_power": "3",
+                "start_gas_burner_time": "7"
+            },
             "state": false,
             "timer": 0,
             "type": "Stepper Motor Actor"
@@ -14,7 +19,7 @@
             "name": "Heizstab",
             "power": 100,
             "props": {
-                "GPIO": 17
+                "GPIO": 18
             },
             "state": false,
             "timer": 0,
@@ -22,7 +27,7 @@
         },
         {
             "id": "Mz2poM6kAC3rV6VThT6v7e",
-            "name": "Pumpe 1",
+            "name": "Pumpe 1 Hei\u00dfwasser TimedCycle",
             "power": 100,
             "props": {
                 "Actor": "k5VTy9aJgHyoLggjtLdjpD",
@@ -33,19 +38,36 @@
                 "GPIOstate": "High",
                 "Inverted": "No",
                 "SamplingTime": 2,
-                "cycle_time": "1",
+                "cycle_time": "12",
                 "notification": "Yes",
-                "on_time": "5"
+                "on_time": "90"
             },
             "state": false,
             "timer": 0,
             "type": "Timed Cycle Actor"
         },
         {
-            "id": "6q8zAkmFTMgJpRuy7GGoop",
-            "name": "Pumpe 2",
+            "id": "VUtXiRtTttsrUFaTXRLQZb",
+            "name": "Pumpe 1 L\u00e4uterbottich LevelSensor",
             "power": 100,
             "props": {
+                "gpio_level_lower": "7",
+                "gpio_level_upper": "8",
+                "gpio_pump": "11",
+                "notification": "Yes"
+            },
+            "state": false,
+            "timer": 0,
+            "type": "Level Sensor Pump Actor"
+        },
+        {
+            "id": "6q8zAkmFTMgJpRuy7GGoop",
+            "name": "Pumpe 2 Vorlaufgef\u00e4\u00df LevelSensor",
+            "power": 100,
+            "props": {
+                "gpio_level_lower": "9",
+                "gpio_level_upper": "19",
+                "gpio_pump": "12",
                 "notification": "Yes"
             },
             "state": false,
@@ -57,7 +79,9 @@
             "name": "R\u00fchrwerk",
             "power": 100,
             "props": {
-                "GPIO": 1
+                "GPIO": 16,
+                "Inverted": "No",
+                "SamplingTime": 5
             },
             "state": false,
             "timer": 0,

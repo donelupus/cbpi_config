@@ -457,7 +457,7 @@
             "props": {
                 "height": 100,
                 "linecolor": "#00FF00",
-                "refresh": 10,
+                "refresh": 1,
                 "sensor": "9MQge6thWXX7DUt2PP6fjF",
                 "width": 300
             },
@@ -561,7 +561,7 @@
             "name": "Actor",
             "props": {
                 "action": "yes",
-                "actor": "Mz2poM6kAC3rV6VThT6v7e",
+                "actor": "VUtXiRtTttsrUFaTXRLQZb",
                 "powerslider": "No",
                 "size": "12"
             },

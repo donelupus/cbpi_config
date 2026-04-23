@@ -11,19 +11,8 @@
             },
             "sensor": "Tb7ghjjaPAjUHAAxWeAL7H",
             "state": false,
-            "target_temp": 80,
-            "type": "Hysteresis"
-        },
-        {
-            "agitator": "",
-            "heater": "",
-            "id": "JDVXswdvAmDmdwvGFmgteM",
-            "name": "L\u00e4uterbottich",
-            "props": {},
-            "sensor": "",
-            "state": false,
             "target_temp": 0,
-            "type": ""
+            "type": "Hysteresis"
         },
         {
             "agitator": "KU7QwACNKC4sMsEXeeMskt",
