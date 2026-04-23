@@ -86,6 +86,32 @@
             "state": false,
             "timer": 0,
             "type": "GPIOActor"
+        },
+        {
+            "id": "ZmnCHdjLLqgxJBWuRUEZEH",
+            "name": "Pumpe 1 Hei\u00dfwasser Benetzung Senkboden",
+            "power": 100,
+            "props": {
+                "GPIO": 11,
+                "Inverted": "No",
+                "SamplingTime": 2
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
+        },
+        {
+            "id": "Y8zEd9oPot562z78wq5BR4",
+            "name": "Pumpe1 Hei\u00dfwasser Benetzung Senkboden",
+            "power": 100,
+            "props": {
+                "GPIO": 11,
+                "Inverted": "No",
+                "SamplingTime": 2
+            },
+            "state": false,
+            "timer": 0,
+            "type": "GPIOActor"
         }
     ]
 }

@@ -487,7 +487,7 @@
             },
             "type": "Steps",
             "x": 735,
-            "y": 80
+            "y": 275
         },
         {
             "id": "ee6a77e8-7dd7-4c4d-a005-07cb140a7519",
@@ -506,11 +506,11 @@
             "name": "1. Hei\u00dfwasser Prozess",
             "props": {
                 "color": "#fff",
-                "size": 18
+                "size": 20
             },
             "type": "Text",
             "x": 35,
-            "y": 620
+            "y": 610
         },
         {
             "id": "9dfb9949-14db-4760-bd50-7914b0024b62",

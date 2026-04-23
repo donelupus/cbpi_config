@@ -12,7 +12,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "D",
+            "status": "S",
             "type": "NotificationStep"
         },
         {
@@ -24,7 +24,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "D",
+            "status": "I",
             "type": "ToggleStep"
         },
         {
@@ -39,7 +39,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "D",
+            "status": "I",
             "type": "MashInStep"
         },
         {
@@ -54,7 +54,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "D",
+            "status": "I",
             "type": "MashStep"
         },
         {
@@ -69,7 +69,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "D",
+            "status": "I",
             "type": "MashInStep"
         },
         {
@@ -84,12 +84,12 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "D",
+            "status": "I",
             "type": "MashInStep"
         },
         {
             "id": "8oEWUj5wEs9FEponWtxtPs",
-            "name": "Verschlauchung & Umschaltventi korrekt, W\u00fcrzepfanne reinigen/L\u00e4uterruhe & Trubw\u00fcrzepumpen beendet?",
+            "name": "Verschlauchung & Umschaltventi korrekt?",
             "props": {
                 "AutoNext": "Yes",
                 "Notification": "Verschlauchung vorbereiten. Umschaltventil in die korrekte Position bringen. W\u00fcrzepfanne reinigen."
@@ -100,20 +100,56 @@
             "type": "NotificationStep"
         },
         {
-            "id": "gcd8j4Ed4kW4tZKkLUgu3Z",
-            "name": "Start Punpenautomatik Vorlaufgef\u00e4\u00df",
+            "id": "Nt6dbvEzvkKTR3GxKKVPQw",
+            "name": "Benetzung Senkboden (Pumpe 1)",
             "props": {
+                "Actor": "ZmnCHdjLLqgxJBWuRUEZEH",
+                "Timer": "0.08"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "ActorStep"
+        },
+        {
+            "id": "avgJ33ghfxGoYpNRRU7BXA",
+            "name": "W\u00fcrzepfanne gereinigt? / L\u00e4uterruhe & Trubw\u00fcrzepumpen beendet?",
+            "props": {
+                "AutoNext": "No"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
+            "id": "Yhp2rjcddPLmLk9MFtFjW2",
+            "name": "Heizsondenatuomatik ausgeschaltet?",
+            "props": {
+                "AutoNext": "No"
+            },
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
+            "id": "gcd8j4Ed4kW4tZKkLUgu3Z",
+            "name": "Start Pumpenautomatik Vorlaufgef\u00e4\u00df (Pumpe 2)",
+            "props": {
+                "Actor": "6q8zAkmFTMgJpRuy7GGoop",
                 "toggle_type": "On"
             },
             "state_text": "",
             "state_text2": null,
-            "status": "S",
+            "status": "I",
             "type": "ToggleStep"
         },
         {
             "id": "H9cbVAByE6eU4NrHGRh98b",
-            "name": "Start Punpenautomatik L\u00e4uterbottich",
+            "name": "Start Pumpenautomatik L\u00e4uterbottich (Pumpe 1)",
             "props": {
+                "Actor": "VUtXiRtTttsrUFaTXRLQZb",
                 "toggle_type": "On"
             },
             "state_text": "",
@@ -135,8 +171,9 @@
         },
         {
             "id": "d2EPFx6S7goZ6n7LXDwbUf",
-            "name": "Stop Pumpenautomatik L\u00e4uterbottich",
+            "name": "Stop Pumpenautomatik L\u00e4uterbottich (Pumpe 1)",
             "props": {
+                "Actor": "VUtXiRtTttsrUFaTXRLQZb",
                 "toggle_type": "Off"
             },
             "state_text": "",
@@ -146,8 +183,9 @@
         },
         {
             "id": "A8zARtg4st97nLi574ZmyR",
-            "name": "Stop Pumpenautomatik Vorlaufgef\u00e4\u00df",
+            "name": "Stop Pumpenautomatik Vorlaufgef\u00e4\u00df (Pumpe 2)",
             "props": {
+                "Actor": "6q8zAkmFTMgJpRuy7GGoop",
                 "toggle_type": "Off"
             },
             "state_text": "",
