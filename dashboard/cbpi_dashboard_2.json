@@ -1,0 +1,31 @@
+{
+    "elements": [
+        {
+            "id": "25595d23-4484-42c6-9be5-d4cadbba620f",
+            "name": "Actor",
+            "props": {
+                "action": "yes",
+                "actor": "8oUswA3PxXP6sjBbAUjC5n",
+                "powerslider": "yes",
+                "size": "12"
+            },
+            "type": "ActorButton",
+            "x": 10,
+            "y": 10
+        },
+        {
+            "id": "deeb064a-dbac-4948-90fd-2f70be14de51",
+            "name": "Actor",
+            "props": {
+                "action": "yes",
+                "actor": "8oUswA3PxXP6sjBbAUjC5n",
+                "powerslider": "No",
+                "size": "12"
+            },
+            "type": "ActorButton",
+            "x": 55,
+            "y": 155
+        }
+    ],
+    "pathes": []
+}

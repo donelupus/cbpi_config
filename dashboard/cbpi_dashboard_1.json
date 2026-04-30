@@ -92,45 +92,45 @@
             "id": "cf19df86-a7df-4acb-9775-2c583fbc0425",
             "name": "Led",
             "props": {
-                "actor": "Mz2poM6kAC3rV6VThT6v7e",
-                "color": "green"
-            },
-            "type": "Led",
-            "x": 295,
-            "y": 560
-        },
-        {
-            "id": "d13fff1f-c3a7-44f2-8a09-016e691667b2",
-            "name": "Pumpe 1",
-            "props": {
-                "color": "#fff",
-                "size": 16
-            },
-            "type": "Text",
-            "x": 285,
-            "y": 530
-        },
-        {
-            "id": "1d01b4b5-7eac-4161-ab19-6911473bad1c",
-            "name": "Led",
-            "props": {
                 "actor": "6q8zAkmFTMgJpRuy7GGoop",
                 "color": "green"
             },
             "type": "Led",
-            "x": 570,
-            "y": 515
+            "x": 470,
+            "y": 545
         },
         {
-            "id": "d84e08d1-966e-4631-94cf-d4e32946ce24",
+            "id": "d13fff1f-c3a7-44f2-8a09-016e691667b2",
             "name": "Pumpe 2",
             "props": {
                 "color": "#fff",
                 "size": 16
             },
             "type": "Text",
-            "x": 555,
-            "y": 485
+            "x": 455,
+            "y": 510
+        },
+        {
+            "id": "1d01b4b5-7eac-4161-ab19-6911473bad1c",
+            "name": "Led",
+            "props": {
+                "actor": "VUtXiRtTttsrUFaTXRLQZb",
+                "color": "green"
+            },
+            "type": "Led",
+            "x": 595,
+            "y": 545
+        },
+        {
+            "id": "d84e08d1-966e-4631-94cf-d4e32946ce24",
+            "name": "Pumpe 1",
+            "props": {
+                "color": "#fff",
+                "size": 16
+            },
+            "type": "Text",
+            "x": 585,
+            "y": 510
         },
         {
             "id": "85afeabd-48ca-4ccc-8864-b85edd8e69ed",
@@ -158,114 +158,6 @@
             "type": "Text",
             "x": 45,
             "y": 500
-        },
-        {
-            "id": "55a36d99-64a7-46bf-8312-7b4af84c35e6",
-            "name": "Sensor Data",
-            "props": {
-                "action": "no",
-                "color": "#fff",
-                "colorrange": "#f00",
-                "digits": "N/A",
-                "sensor": "NaoL7hUSGAYE5VDJT5Swof",
-                "size": "12",
-                "unit": ""
-            },
-            "type": "Sensor",
-            "x": 435,
-            "y": 455
-        },
-        {
-            "id": "3f01a516-0ac1-49e2-a4dc-19deab2b8019",
-            "name": "Level 1",
-            "props": {
-                "color": "#fff",
-                "size": 16
-            },
-            "type": "Text",
-            "x": 385,
-            "y": 450
-        },
-        {
-            "id": "ea1e7339-687d-4c22-a008-6a62c247bc5c",
-            "name": "Sensor Data",
-            "props": {
-                "action": "no",
-                "color": "#fff",
-                "colorrange": "#f00",
-                "digits": "N/A",
-                "sensor": "fLEdzHb8gJEkyKZPU6ssea",
-                "size": "12",
-                "unit": ""
-            },
-            "type": "Sensor",
-            "x": 435,
-            "y": 420
-        },
-        {
-            "id": "cb18a62c-b8c9-46d0-9f2a-d272a1582ec6",
-            "name": "Level 2",
-            "props": {
-                "color": "#fff",
-                "size": 16
-            },
-            "type": "Text",
-            "x": 385,
-            "y": 415
-        },
-        {
-            "id": "9bf0e875-ce51-4333-992c-c3125a656885",
-            "name": "Sensor Data",
-            "props": {
-                "action": "no",
-                "color": "#fff",
-                "colorrange": "#f00",
-                "digits": "N/A",
-                "sensor": "Cuws4J3jALMypUna7yTVrM",
-                "size": "12",
-                "unit": ""
-            },
-            "type": "Sensor",
-            "x": 545,
-            "y": 375
-        },
-        {
-            "id": "52b2ea58-46c5-4f45-968d-824576c3d7c4",
-            "name": "Level 3",
-            "props": {
-                "color": "#fff",
-                "size": 16
-            },
-            "type": "Text",
-            "x": 490,
-            "y": 370
-        },
-        {
-            "id": "8a122701-63ff-40bf-bf03-edb312c561c1",
-            "name": "Level 4",
-            "props": {
-                "color": "#fff",
-                "size": 16
-            },
-            "type": "Text",
-            "x": 490,
-            "y": 330
-        },
-        {
-            "id": "11683635-ad97-40b2-9bc4-3386f793a30e",
-            "name": "Sensor Data",
-            "props": {
-                "action": "no",
-                "color": "#fff",
-                "colorrange": "#f00",
-                "digits": "N/A",
-                "sensor": "gFRJLvSnYdYcVHgksMtADZ",
-                "size": "12",
-                "unit": ""
-            },
-            "type": "Sensor",
-            "x": 545,
-            "y": 335
         },
         {
             "id": "a341fb6d-1758-419a-8cfd-6f9796b7990c",
@@ -486,8 +378,8 @@
                 "width": 400
             },
             "type": "Steps",
-            "x": 735,
-            "y": 275
+            "x": 730,
+            "y": 35
         },
         {
             "id": "ee6a77e8-7dd7-4c4d-a005-07cb140a7519",
@@ -561,26 +453,26 @@
             "name": "Actor",
             "props": {
                 "action": "yes",
-                "actor": "VUtXiRtTttsrUFaTXRLQZb",
+                "actor": "6q8zAkmFTMgJpRuy7GGoop",
                 "powerslider": "No",
                 "size": "12"
             },
             "type": "ActorButton",
-            "x": 260,
-            "y": 590
+            "x": 430,
+            "y": 585
         },
         {
             "id": "6cf65dbd-cabb-482b-b7c4-efee67c7adcc",
             "name": "Actor",
             "props": {
                 "action": "yes",
-                "actor": "6q8zAkmFTMgJpRuy7GGoop",
+                "actor": "VUtXiRtTttsrUFaTXRLQZb",
                 "powerslider": "No",
                 "size": "12"
             },
             "type": "ActorButton",
-            "x": 535,
-            "y": 545
+            "x": 555,
+            "y": 585
         }
     ],
     "pathes": [
