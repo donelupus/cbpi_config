@@ -12,7 +12,7 @@
             },
             "state_text": "",
             "state_text2": null,
-            "status": "S",
+            "status": "I",
             "type": "NotificationStep"
         },
         {
@@ -28,10 +28,19 @@
             "type": "ToggleStep"
         },
         {
+            "id": "6zQc66ZcX329Y84bw9wPYB",
+            "name": "Schalte Regler f\u00fcr Maisch- und W\u00fcrzpfanne ein",
+            "props": {},
+            "state_text": "",
+            "state_text2": null,
+            "status": "I",
+            "type": "NotificationStep"
+        },
+        {
             "id": "htXHCtDStiZEcJ9Vt6pYBk",
             "name": "Einmaischen",
             "props": {
-                "AutoMode": "Yes",
+                "AutoMode": "No",
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
                 "Notification": "Zum Einmaischen bereit/Einmaischen beendet?",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
@@ -46,7 +55,7 @@
             "id": "U9BMSwWUZAZzfmGJ7advJn",
             "name": "Beta-Amylase Rast",
             "props": {
-                "AutoMode": "Yes",
+                "AutoMode": "No",
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
                 "Temp": "62",
