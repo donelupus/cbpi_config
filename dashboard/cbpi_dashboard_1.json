@@ -274,7 +274,7 @@
             "props": {
                 "color": "#fff",
                 "kettle": "3zniPm8snJhDQrPowp4x47",
-                "size": "12",
+                "size": 16,
                 "unit": "\u00b0"
             },
             "type": "TargetTemp",
@@ -290,7 +290,7 @@
             },
             "type": "Text",
             "x": 340,
-            "y": 200
+            "y": 205
         },
         {
             "id": "08776e5c-0565-4af5-9b0d-72025d681f00",
