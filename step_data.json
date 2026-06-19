@@ -28,28 +28,30 @@
             "type": "ToggleStep"
         },
         {
-            "id": "6zQc66ZcX329Y84bw9wPYB",
+            "id": "NgfQ2QKu2XSEGFZQgtjozL",
             "name": "Schalte Regler f\u00fcr Maisch- und W\u00fcrzpfanne ein",
-            "props": {},
+            "props": {
+                "AutoNext": "No"
+            },
             "state_text": "",
             "state_text2": null,
             "status": "I",
             "type": "NotificationStep"
         },
         {
-            "id": "htXHCtDStiZEcJ9Vt6pYBk",
-            "name": "Einmaischen",
+            "id": "S4mabfeoy9ZaA9TeSkPssw",
+            "name": "Einmaischen Rast",
             "props": {
                 "AutoMode": "No",
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
-                "Notification": "Zum Einmaischen bereit/Einmaischen beendet?",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
-                "Temp": "52"
+                "Temp": "52",
+                "Timer": "120"
             },
             "state_text": "",
             "state_text2": null,
             "status": "I",
-            "type": "MashInStep"
+            "type": "MashStep"
         },
         {
             "id": "U9BMSwWUZAZzfmGJ7advJn",
@@ -89,7 +91,7 @@
                 "Kettle": "3zniPm8snJhDQrPowp4x47",
                 "Notification": "Bereit zum Abmaischen/Abmaischen beendet?",
                 "Sensor": "9MQge6thWXX7DUt2PP6fjF",
-                "Temp": "77"
+                "Temp": "72"
             },
             "state_text": "",
             "state_text2": null,
