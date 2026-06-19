@@ -9,7 +9,7 @@
                 "Sensor": "28-000000506f08"
             },
             "state": false,
-            "type": "OneWire"
+            "type": "OneWireTempSensor"
         },
         {
             "id": "9MQge6thWXX7DUt2PP6fjF",
@@ -20,7 +20,7 @@
                 "Sensor": "28-000000595819"
             },
             "state": false,
-            "type": "OneWire"
+            "type": "OneWireTempSensor"
         }
     ]
 }
